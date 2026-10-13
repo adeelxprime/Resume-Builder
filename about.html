@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us — CVCraft | Our Mission & Technology</title>
+  <meta name="description" content="Discover why CVCraft was created: a completely free, private, client-side CV builder designed to eliminate deceptive subscriptions and respect candidate privacy.">
+  <meta name="author" content="Adeel Murtaza">
+  <meta name="theme-color" content="#4f46e5">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="About Us — CVCraft | Our Mission & Technology">
+  <meta property="og:description" content="Discover why CVCraft was created: free, private, client-side CV builder. Developed by Adeel Murtaza.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo" aria-label="CVCraft Home">
+        <img src="assets/logo.svg" alt="CVCraft Logo" width="34" height="34">
+        <span>CV<span class="accent">Craft</span></span>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="templates.html" class="nav-link">Resume Templates</a></li>
+          <li><a href="examples.html" class="nav-link">CV Examples</a></li>
+          <li><a href="tips.html" class="nav-link">CV Writing Tips</a></li>
+          <li><a href="about.html" class="nav-link active">About</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="builder.html" class="btn btn-primary btn-sm">Build My CV</a>
+        <button type="button" class="mobile-menu-toggle btn-icon" aria-label="Open Navigation Menu" aria-expanded="false">
+          <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav" aria-label="Mobile Navigation">
+    <ul class="mobile-nav-list">
+      <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+      <li><a href="templates.html" class="mobile-nav-link">Resume Templates</a></li>
+      <li><a href="examples.html" class="mobile-nav-link">CV Examples</a></li>
+      <li><a href="tips.html" class="mobile-nav-link">CV Writing Tips</a></li>
+      <li><a href="about.html" class="mobile-nav-link active">About CVCraft</a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact Us</a></li>
+    </ul>
+    <a href="builder.html" class="btn btn-primary" style="width: 100%;">Create Resume Now</a>
+  </div>
+
+  <main id="main-content">
+    <!-- Header Hero -->
+    <section class="section" style="padding-bottom: 32px; background: radial-gradient(circle at 50% 0%, #eef2ff 0%, #f8fafc 80%);">
+      <div class="container text-center">
+        <div class="badge">Transparent & Open</div>
+        <h1 class="section-title">The Story Behind CVCraft</h1>
+        <p class="section-subtitle">
+          Job searching is already stressful. Crafting an ATS-compliant resume should never require a predatory monthly subscription or sacrificing personal privacy.
+        </p>
+      </div>
+    </section>
+
+    <!-- Main Story -->
+    <section class="section" style="padding-top: 32px;">
+      <div class="container container-narrow prose">
+        <h2>Why We Built CVCraft</h2>
+        <p>
+          Almost everyone who has searched for a job in the digital era has encountered the same bait-and-switch: an online resume builder advertises itself as <em>"Free to build your CV"</em>. You spend 45 minutes carefully inputting your educational credentials, employment milestones, and phone numbers. Only when you click <strong>Download PDF</strong> does a pop-up appear requiring an immediate \$19.99/month recurring charge.
+        </p>
+        <p>
+          We created <strong>CVCraft</strong> to offer a permanent, clean alternative:
+        </p>
+        <ul>
+          <li><strong>No paywalls, ever:</strong> All templates, real-time styling controls, and PDF downloads are genuinely free.</li>
+          <li><strong>No mandatory accounts:</strong> You don't need to surrender your personal email, create a password, or verify an inbox just to export a document.</li>
+          <li><strong>No server tracking:</strong> We don't upload your employment history to any server. What you type stays inside your current browser session.</li>
+        </ul>
+
+        <h2>Our Privacy-First Architecture</h2>
+        <p>
+          Traditional software platforms operate heavy cloud databases that store candidate resumes. This creates a data liability: your address, phone number, salary markers, and career references could be exposed in data breaches or used for marketing profiling.
+        </p>
+        <p>
+          CVCraft takes an entirely different architectural approach. The application runs <strong>100% client-side</strong>:
+        </p>
+        <div class="callout-box tip">
+          <h4 style="font-size: 1.1rem; color: #065f46; margin-bottom: 8px;">How your data is protected:</h4>
+          <p style="margin-bottom: 8px; font-size: 0.95rem;">
+            When you type in CVCraft, your text is stored in your computer's local browser memory (HTML5 <code>localStorage</code>). No API call sends your information over the internet.
+          </p>
+          <p style="margin: 0; font-size: 0.95rem;">
+            When you export your resume, the PDF is synthesized directly in your browser using client-side JavaScript rendering engines, or formatted via your native browser print engine.
+          </p>
+        </div>
+
+        <h2>Open, Accessible Technology</h2>
+        <p>
+          CVCraft is built with lean web standards: semantic HTML5, modern CSS3 with custom properties, and vanilla JavaScript. We purposely avoid heavy server dependencies, closed proprietary frameworks, or paid third-party APIs.
+        </p>
+        <p>
+          This keeps the website exceptionally fast, lightweight on mobile data, accessible across all devices, and usable even in low-bandwidth regions worldwide.
+        </p>
+
+        <h2>Our Core Commitments</h2>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 32px 0;">
+          <div style="background: #fff; padding: 24px; border-radius: 12px; border: 1px solid #e2e8f0; box-shadow: var(--shadow-sm);">
+            <div style="font-weight: 700; color: #0f172a; margin-bottom: 8px;">Honesty Over Hype</div>
+            <p style="font-size: 0.9rem; color: #64748b; margin: 0;">We do not use fake counters ("9 million resumes built"), fake review quotes, or misleading ad banners.</p>
+          </div>
+          <div style="background: #fff; padding: 24px; border-radius: 12px; border: 1px solid #e2e8f0; box-shadow: var(--shadow-sm);">
+            <div style="font-weight: 700; color: #0f172a; margin-bottom: 8px;">Recruiter Alignment</div>
+            <p style="font-size: 0.9rem; color: #64748b; margin: 0;">Templates are designed around genuine recruitment standards and automated ATS compatibility rather than gaudy visual gimmicks.</p>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 48px;">
+          <a href="builder.html" class="btn btn-primary btn-lg">Start Building Your Free CV</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo" style="color: #fff;">
+            <img src="assets/logo.svg" alt="CVCraft Logo" width="30" height="30">
+            <span>CV<span class="accent">Craft</span></span>
+          </a>
+          <p>
+            The free, private, client-side CV builder empowering students and professionals to build ATS-ready resumes without paywalls or account creation.
+          </p>
+          <div class="privacy-pledge">
+            <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+            </svg>
+            <span>Client-side only. No tracking database.</span>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h4>Resume Builder</h4>
+          <ul class="footer-links">
+            <li><a href="builder.html">Open CV Builder</a></li>
+            <li><a href="templates.html">Resume Templates</a></li>
+            <li><a href="examples.html">CV Examples</a></li>
+            <li><a href="tips.html">Writing Advice</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Templates</h4>
+          <ul class="footer-links">
+            <li><a href="builder.html?template=modern">Modern Clean</a></li>
+            <li><a href="builder.html?template=classic">Classic Executive</a></li>
+            <li><a href="builder.html?template=minimal">Minimalist Swiss</a></li>
+            <li><a href="builder.html?template=student">Student & Graduate</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>About & Legal</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About CVCraft</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 CVCraft. All rights reserved.</div>
+        <div>Developed by <strong>Adeel Murtaza</strong></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

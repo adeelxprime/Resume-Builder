@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — CVCraft | Client-Side Data Transparency</title>
+  <meta name="description" content="Read CVCraft's truthful Privacy Policy. Learn how your resume data is kept entirely client-side in your local browser with zero server transmission.">
+  <meta name="author" content="Adeel Murtaza">
+  <meta name="theme-color" content="#4f46e5">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Privacy Policy — CVCraft | Client-Side Data Transparency">
+  <meta property="og:description" content="Read CVCraft's truthful Privacy Policy. Developed by Adeel Murtaza.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo" aria-label="CVCraft Home">
+        <img src="assets/logo.svg" alt="CVCraft Logo" width="34" height="34">
+        <span>CV<span class="accent">Craft</span></span>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="templates.html" class="nav-link">Resume Templates</a></li>
+          <li><a href="examples.html" class="nav-link">CV Examples</a></li>
+          <li><a href="tips.html" class="nav-link">CV Writing Tips</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="builder.html" class="btn btn-primary btn-sm">Build My CV</a>
+        <button type="button" class="mobile-menu-toggle btn-icon" aria-label="Open Navigation Menu" aria-expanded="false">
+          <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav" aria-label="Mobile Navigation">
+    <ul class="mobile-nav-list">
+      <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+      <li><a href="templates.html" class="mobile-nav-link">Resume Templates</a></li>
+      <li><a href="examples.html" class="mobile-nav-link">CV Examples</a></li>
+      <li><a href="tips.html" class="mobile-nav-link">CV Writing Tips</a></li>
+      <li><a href="about.html" class="mobile-nav-link">About CVCraft</a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact Us</a></li>
+    </ul>
+    <a href="builder.html" class="btn btn-primary" style="width: 100%;">Create Resume Now</a>
+  </div>
+
+  <main id="main-content">
+    <!-- Header Hero -->
+    <section class="section" style="padding-bottom: 32px; background: radial-gradient(circle at 50% 0%, #eef2ff 0%, #f8fafc 80%);">
+      <div class="container text-center">
+        <div class="badge">Truth in Privacy</div>
+        <h1 class="section-title">Privacy Policy</h1>
+        <p class="section-subtitle">
+          Effective Date: October 2026 · We do not collect, store, or sell your personal resume information.
+        </p>
+      </div>
+    </section>
+
+    <!-- Policy Content -->
+    <section class="section" style="padding-top: 32px;">
+      <div class="container container-narrow prose">
+        <h2>1. Summary of Our Privacy Philosophy</h2>
+        <p>
+          At <strong>CVCraft</strong>, we believe your career history, contact details, and qualifications belong solely to you. Unlike commercial platforms that require user registration and harvest resume details into central marketing databases, CVCraft is architected as an in-browser static web application.
+        </p>
+        <div class="callout-box tip">
+          <strong style="color: #065f46;">Key Privacy Principle:</strong>
+          <p style="margin: 6px 0 0; font-size: 0.95rem;">
+            Your resume content is never uploaded to any CVCraft server or external database. All editing, rendering, and PDF processing occur locally on your own device.
+          </p>
+        </div>
+
+        <h2>2. How Resume Drafts Are Stored (Local Storage)</h2>
+        <p>
+          To prevent you from losing your work when you accidentally refresh or close your browser tab, CVCraft utilizes the web standard known as <code>localStorage</code>.
+        </p>
+        <ul>
+          <li><strong>Scope:</strong> The data stored in <code>localStorage</code> remains entirely inside your current web browser on your device.</li>
+          <li><strong>Retention:</strong> The draft persists on your local machine until you manually click the "Clear All" button in the builder or clear your browser's site data/cache.</li>
+          <li><strong>Important Notice:</strong> Because data is stored in the local browser, clearing browser history, using Private/Incognito mode, or switching to another computer or device will not transfer your draft. We recommend downloading a PDF copy as your permanent backup.</li>
+        </ul>
+
+        <h2>3. Third-Party Libraries and External Resources</h2>
+        <p>
+          CVCraft uses a minimal set of reputable external web resources to render typography and generate PDF files:
+        </p>
+        <ul>
+          <li><strong>Google Fonts:</strong> We link to fonts (Inter, Merriweather, Roboto) hosted by Google Fonts to ensure crisp typographic display across all operating systems. Google may collect standard web telemetry (such as your IP address) in accordance with Google's Privacy Policy.</li>
+          <li><strong>cdnjs (Cloudflare):</strong> The client-side PDF export tool (<code>html2pdf.bundle.min.js</code>) is loaded via cdnjs/Cloudflare to ensure fast, secure content delivery. Cloudflare processes standard connection metadata to deliver these scripts securely.</li>
+        </ul>
+        <p>
+          Neither Google Fonts nor cdnjs receives any text, names, emails, or job histories that you enter into the CVCraft editor.
+        </p>
+
+        <h2>4. Advertising and Future AdSense Readiness</h2>
+        <p>
+          In the future, CVCraft may display contextual advertising via third-party advertising networks such as Google AdSense to offset domain and hosting maintenance costs.
+        </p>
+        <p>
+          If and when advertising networks are active:
+        </p>
+        <ul>
+          <li>Advertising partners may use cookies or web beacons to serve ads based on your visits to this and other websites.</li>
+          <li>You may opt out of personalized advertising by visiting Google's Ads Settings (<a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer">https://adssettings.google.com</a>) or through tools provided by the Digital Advertising Alliance.</li>
+          <li>At no time will your CV content, contact information, or form input be shared with advertisers.</li>
+        </ul>
+
+        <h2>5. Cookies and Web Analytics</h2>
+        <p>
+          CVCraft does not set proprietary tracking cookies. We do not maintain user profiles, fingerprinting scripts, or cross-site behavioral tracking beacons. Standard HTTP server logs from our static hosting provider may record routine technical diagnostic data (such as HTTP status codes, browser user-agent, and IP address) solely for network reliability and DDoS mitigation.
+        </p>
+
+        <h2>6. Data Security</h2>
+        <p>
+          Because we do not maintain a backend database containing candidate profiles, there is no central database of CVCraft user resumes that could be breached, leaked, or ransomed. However, because your draft is stored in your computer's browser, you should be mindful when using shared public computers (e.g., at libraries or internet cafes) and click "Clear All" before finishing your session.
+        </p>
+
+        <h2>7. Children's Privacy</h2>
+        <p>
+          CVCraft does not knowingly collect personal information from individuals under the age of 13. High school and college students using the service retain full control over their own locally generated documents.
+        </p>
+
+        <h2>8. Contact Regarding Privacy</h2>
+        <p>
+          If you have questions about our client-side storage architecture or this Privacy Policy, please contact us at:
+        </p>
+        <p>
+          <strong>Email:</strong> <a href="mailto:support@cvcraft-example.com">support@cvcraft-example.com</a><br>
+          <em>(Site owner: replace placeholder with your active contact address)</em>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo" style="color: #fff;">
+            <img src="assets/logo.svg" alt="CVCraft Logo" width="30" height="30">
+            <span>CV<span class="accent">Craft</span></span>
+          </a>
+          <p>
+            The free, private, client-side CV builder empowering students and professionals to build ATS-ready resumes without paywalls or account creation.
+          </p>
+          <div class="privacy-pledge">
+            <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+            </svg>
+            <span>Client-side only. No tracking database.</span>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h4>Resume Builder</h4>
+          <ul class="footer-links">
+            <li><a href="builder.html">Open CV Builder</a></li>
+            <li><a href="templates.html">Resume Templates</a></li>
+            <li><a href="examples.html">CV Examples</a></li>
+            <li><a href="tips.html">Writing Advice</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Templates</h4>
+          <ul class="footer-links">
+            <li><a href="builder.html?template=modern">Modern Clean</a></li>
+            <li><a href="builder.html?template=classic">Classic Executive</a></li>
+            <li><a href="builder.html?template=minimal">Minimalist Swiss</a></li>
+            <li><a href="builder.html?template=student">Student & Graduate</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>About & Legal</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About CVCraft</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 CVCraft. All rights reserved.</div>
+        <div>Developed by <strong>Adeel Murtaza</strong></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CVCraft — Free CV & Resume Builder | No Sign-up Required</title>
+  <meta name="description" content="Build professional, ATS-friendly resumes and CVs for free in your browser. Real-time live preview, customizable templates, instant PDF download. No account or subscription needed.">
+  <meta name="author" content="Adeel Murtaza">
+  <meta name="theme-color" content="#4f46e5">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CVCraft — Free CV & Resume Builder">
+  <meta property="og:description" content="Build professional, ATS-friendly resumes and CVs for free in your browser. Real-time live preview, customizable templates, instant PDF download. Developed by Adeel Murtaza.">
+  <meta property="og:site_name" content="CVCraft">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Global Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo" aria-label="CVCraft Home">
+        <img src="assets/logo.svg" alt="CVCraft Logo" width="34" height="34">
+        <span>CV<span class="accent">Craft</span></span>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="templates.html" class="nav-link">Resume Templates</a></li>
+          <li><a href="examples.html" class="nav-link">CV Examples</a></li>
+          <li><a href="tips.html" class="nav-link">CV Writing Tips</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="templates.html" class="btn btn-secondary btn-sm">Templates</a>
+        <a href="builder.html" class="btn btn-primary btn-sm">Build My CV</a>
+        <button type="button" class="mobile-menu-toggle btn-icon" aria-label="Open Navigation Menu" aria-expanded="false">
+          <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav" aria-label="Mobile Navigation">
+    <ul class="mobile-nav-list">
+      <li><a href="index.html" class="mobile-nav-link active">Home</a></li>
+      <li><a href="templates.html" class="mobile-nav-link">Resume Templates</a></li>
+      <li><a href="examples.html" class="mobile-nav-link">CV Examples</a></li>
+      <li><a href="tips.html" class="mobile-nav-link">CV Writing Tips</a></li>
+      <li><a href="about.html" class="mobile-nav-link">About CVCraft</a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact Us</a></li>
+    </ul>
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+      <a href="builder.html" class="btn btn-primary" style="width: 100%;">Create Resume Now</a>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="badge">
+              <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+              100% Free · No Sign-Up · Private in Browser
+            </div>
+            <h1>Create a Professional CV <span class="highlight">for Free</span></h1>
+            <p class="hero-lead">
+              Design a tailored, ATS-friendly resume in minutes. Customize typography and colors, watch live updates with our split-screen editor, and export a clean PDF without paying a cent or creating an account.
+            </p>
+            <div class="hero-actions">
+              <a href="builder.html" class="btn btn-primary btn-lg">
+                <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
+                </svg>
+                Build My CV
+              </a>
+              <a href="templates.html" class="btn btn-secondary btn-lg">
+                Explore Templates
+              </a>
+            </div>
+            <div class="hero-trust">
+              <span class="trust-item">
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                Instant PDF Download
+              </span>
+              <span class="trust-item">
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                Zero Hidden Fees
+              </span>
+              <span class="trust-item">
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                ATS Compliant
+              </span>
+            </div>
+          </div>
+
+          <!-- Hero Visual Resume Simulation -->
+          <div class="hero-visual">
+            <div class="hero-floating-badge badge-top">
+              <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+              </svg>
+              <span>ATS Compatible Format</span>
+            </div>
+
+            <div class="hero-card-preview">
+              <div class="hero-card-header">
+                <div>
+                  <div class="hero-card-name">Alexander Vance</div>
+                  <div class="hero-card-title">Senior Full-Stack Engineer</div>
+                </div>
+                <div style="font-size: 0.75rem; color: #64748b; text-align: right;">
+                  Seattle, WA<br>alexander.vance@example.com
+                </div>
+              </div>
+
+              <div style="margin-bottom: 14px;">
+                <div style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: #4f46e5; margin-bottom: 4px; border-bottom: 1.5px solid #eef2ff; padding-bottom: 2px;">Professional Summary</div>
+                <div style="font-size: 0.8rem; color: #475569; line-height: 1.4;">
+                  Results-driven Senior Engineer with 6+ years experience designing, scaling, and maintaining high-throughput cloud architectures and resilient web applications.
+                </div>
+              </div>
+
+              <div style="margin-bottom: 14px;">
+                <div style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: #4f46e5; margin-bottom: 4px; border-bottom: 1.5px solid #eef2ff; padding-bottom: 2px;">Experience</div>
+                <div style="font-size: 0.825rem; font-weight: 700; color: #0f172a; display: flex; justify-content: space-between;">
+                  <span>Senior Software Engineer · CloudScale</span>
+                  <span style="font-weight: 500; color: #64748b; font-size: 0.75rem;">2022 – Present</span>
+                </div>
+                <div style="font-size: 0.775rem; color: #475569; margin-top: 3px;">
+                  • Architected distributed microservices handling 45M+ daily API requests.<br>
+                  • Reduced database query latency by 42% via Redis distributed caching.
+                </div>
+              </div>
+
+              <div>
+                <div style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: #4f46e5; margin-bottom: 4px; border-bottom: 1.5px solid #eef2ff; padding-bottom: 2px;">Skills</div>
+                <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+                  <span style="font-size: 0.7rem; background: #eef2ff; color: #4338ca; padding: 2px 6px; border-radius: 4px;">TypeScript</span>
+                  <span style="font-size: 0.7rem; background: #eef2ff; color: #4338ca; padding: 2px 6px; border-radius: 4px;">Node.js</span>
+                  <span style="font-size: 0.7rem; background: #eef2ff; color: #4338ca; padding: 2px 6px; border-radius: 4px;">React</span>
+                  <span style="font-size: 0.7rem; background: #eef2ff; color: #4338ca; padding: 2px 6px; border-radius: 4px;">AWS</span>
+                  <span style="font-size: 0.7rem; background: #eef2ff; color: #4338ca; padding: 2px 6px; border-radius: 4px;">Docker</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-floating-badge badge-bottom">
+              <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+              </svg>
+              <span>100% Private (No Cloud Upload)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works (Three-Step Process) -->
+    <section class="section">
+      <div class="container">
+        <div class="text-center">
+          <div class="badge">Simple Workflow</div>
+          <h2 class="section-title">How CVCraft Works</h2>
+          <p class="section-subtitle">No multi-step signups, no paywalls after you finish typing, and no complicated design software.</p>
+        </div>
+
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-number">1</div>
+            <h3>Fill in Your Experience</h3>
+            <p>Enter your professional details, work history, education, skills, and projects. Use our pre-loaded sample data to see how each field is formatted.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">2</div>
+            <h3>Select Style & Template</h3>
+            <p>Choose between Modern, Classic, Minimal, and Student layouts. Customize accent colors and font pairings to align with your career sector.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">3</div>
+            <h3>Export Clean PDF</h3>
+            <p>Download your complete CV as an A4 PDF or print directly from your browser. Your data is stored safely in your browser session for future updates.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Templates Showcase Preview -->
+    <section class="section section-subtle">
+      <div class="container">
+        <div class="text-center">
+          <div class="badge">Handcrafted Layouts</div>
+          <h2 class="section-title">Engineered for Every Career Stage</h2>
+          <p class="section-subtitle">Switch between templates at any moment. Your content automatically reflows with pristine typography.</p>
+        </div>
+
+        <div class="templates-grid">
+          <!-- Template 1: Modern -->
+          <div class="template-card">
+            <div class="template-thumbnail-wrapper">
+              <div class="template-mini-sheet" style="border-top: 4px solid #4f46e5;">
+                <div style="font-weight: 800; font-size: 7px; color: #0f172a;">Alexander Vance</div>
+                <div style="font-size: 5px; color: #4f46e5; margin-bottom: 6px;">Software Engineer</div>
+                <div style="height: 1px; background: #e2e8f0; margin-bottom: 6px;"></div>
+                <div style="font-weight: 700; color: #4f46e5; font-size: 5px; margin-bottom: 3px;">EXPERIENCE</div>
+                <div style="height: 4px; background: #cbd5e1; border-radius: 2px; margin-bottom: 3px; width: 85%;"></div>
+                <div style="height: 4px; background: #e2e8f0; border-radius: 2px; margin-bottom: 3px; width: 95%;"></div>
+                <div style="height: 4px; background: #e2e8f0; border-radius: 2px; margin-bottom: 6px; width: 70%;"></div>
+                <div style="font-weight: 700; color: #4f46e5; font-size: 5px; margin-bottom: 3px;">EDUCATION</div>
+                <div style="height: 4px; background: #cbd5e1; border-radius: 2px; margin-bottom: 3px; width: 80%;"></div>
+                <div style="height: 4px; background: #e2e8f0; border-radius: 2px; width: 60%;"></div>
+              </div>
+            </div>
+            <div class="template-info">
+              <h3 class="template-title">Modern Clean</h3>
+              <p class="template-desc">Left accent markers, modern pills, and crisp hierarchy. Highly popular in tech, marketing, and startups.</p>
+              <div class="template-tags">
+                <span class="template-tag">ATS Friendly</span>
+                <span class="template-tag">Tech & Startups</span>
+              </div>
+              <a href="builder.html?template=modern" class="btn btn-primary btn-sm">Use Modern</a>
+            </div>
+          </div>
+
+          <!-- Template 2: Classic -->
+          <div class="template-card">
+            <div class="template-thumbnail-wrapper">
+              <div class="template-mini-sheet" style="font-family: serif; text-align: center;">
+                <div style="font-weight: 700; font-size: 7.5px; color: #0f172a;">Alexander Vance</div>
+                <div style="font-size: 5px; font-style: italic; color: #475569; margin-bottom: 6px;">Senior Systems Consultant</div>
+                <div style="height: 1px; background: #334155; margin-bottom: 6px;"></div>
+                <div style="text-align: left;">
+                  <div style="font-weight: 700; font-size: 5px; border-bottom: 1px solid #cbd5e1; margin-bottom: 3px;">EXPERIENCE</div>
+                  <div style="height: 4px; background: #cbd5e1; margin-bottom: 3px; width: 90%;"></div>
+                  <div style="height: 4px; background: #e2e8f0; margin-bottom: 6px; width: 80%;"></div>
+                  <div style="font-weight: 700; font-size: 5px; border-bottom: 1px solid #cbd5e1; margin-bottom: 3px;">EDUCATION</div>
+                  <div style="height: 4px; background: #cbd5e1; width: 85%;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="template-info">
+              <h3 class="template-title">Classic Executive</h3>
+              <p class="template-desc">Centered header with refined serif typography and full dividers. Best for law, finance, and corporate management.</p>
+              <div class="template-tags">
+                <span class="template-tag">Formal</span>
+                <span class="template-tag">Finance & Legal</span>
+              </div>
+              <a href="builder.html?template=classic" class="btn btn-secondary btn-sm">Use Classic</a>
+            </div>
+          </div>
+
+          <!-- Template 3: Minimal -->
+          <div class="template-card">
+            <div class="template-thumbnail-wrapper">
+              <div class="template-mini-sheet">
+                <div style="font-weight: 300; font-size: 7.5px; color: #0f172a;">Alexander <strong style="font-weight: 700;">Vance</strong></div>
+                <div style="font-size: 4.5px; text-transform: uppercase; letter-spacing: 0.1em; color: #64748b; margin-bottom: 8px;">Product Architect</div>
+                <div style="font-size: 5px; font-weight: 700; text-transform: uppercase; color: #64748b; margin-bottom: 3px;">EXPERIENCE</div>
+                <div style="height: 3px; background: #cbd5e1; margin-bottom: 3px; width: 95%;"></div>
+                <div style="height: 3px; background: #e2e8f0; margin-bottom: 3px; width: 90%;"></div>
+                <div style="height: 3px; background: #e2e8f0; margin-bottom: 8px; width: 75%;"></div>
+                <div style="font-size: 5px; font-weight: 700; text-transform: uppercase; color: #64748b; margin-bottom: 3px;">PROJECTS</div>
+                <div style="height: 3px; background: #cbd5e1; width: 80%;"></div>
+              </div>
+            </div>
+            <div class="template-info">
+              <h3 class="template-title">Minimalist Swiss</h3>
+              <p class="template-desc">Maximum whitespace, understated section labels, and pure typographic discipline. Suited for design and engineering.</p>
+              <div class="template-tags">
+                <span class="template-tag">Minimalist</span>
+                <span class="template-tag">Design & Architecture</span>
+              </div>
+              <a href="builder.html?template=minimal" class="btn btn-secondary btn-sm">Use Minimal</a>
+            </div>
+          </div>
+
+          <!-- Template 4: Student -->
+          <div class="template-card">
+            <div class="template-thumbnail-wrapper">
+              <div class="template-mini-sheet" style="border-left: 4px solid #0891b2;">
+                <div style="background: #f1f5f9; padding: 4px; border-radius: 3px; margin-bottom: 6px;">
+                  <div style="font-weight: 700; font-size: 7px; color: #0f172a;">Maya Chen</div>
+                  <div style="font-size: 4.5px; color: #0891b2;">CS Graduate & Honors Student</div>
+                </div>
+                <div style="background: #e2e8f0; font-weight: 700; font-size: 4.5px; color: #0891b2; padding: 2px; margin-bottom: 3px;">EDUCATION</div>
+                <div style="height: 4px; background: #cbd5e1; margin-bottom: 6px; width: 90%;"></div>
+                <div style="background: #e2e8f0; font-weight: 700; font-size: 4.5px; color: #0891b2; padding: 2px; margin-bottom: 3px;">PROJECTS</div>
+                <div style="height: 4px; background: #cbd5e1; margin-bottom: 6px; width: 85%;"></div>
+                <div style="background: #e2e8f0; font-weight: 700; font-size: 4.5px; color: #0891b2; padding: 2px; margin-bottom: 3px;">SKILLS</div>
+                <div style="height: 4px; background: #cbd5e1; width: 75%;"></div>
+              </div>
+            </div>
+            <div class="template-info">
+              <h3 class="template-title">Student & Graduate</h3>
+              <p class="template-desc">Places education, academic projects, and technical proficiencies front-and-center. Ideal for entry-level applications.</p>
+              <div class="template-tags">
+                <span class="template-tag">Entry-Level</span>
+                <span class="template-tag">Students & Interns</span>
+              </div>
+              <a href="builder.html?template=student" class="btn btn-secondary btn-sm">Use Student</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Platform Features -->
+    <section class="section">
+      <div class="container">
+        <div class="text-center">
+          <div class="badge">Transparent & Powerful</div>
+          <h2 class="section-title">Built with Candidates in Mind</h2>
+          <p class="section-subtitle">Unlike other resume builders, CVCraft doesn't ask for your credit card after 40 minutes of typing.</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+              </svg>
+            </div>
+            <h3>100% Client-Side Privacy</h3>
+            <p>Your resume data is stored locally in your browser via localStorage. Nothing is transmitted or saved to external databases or cloud servers.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+              </svg>
+            </div>
+            <h3>Split-Screen Live Preview</h3>
+            <p>Watch your CV update live as you type. Real-time feedback eliminates formatting surprises and ensures your resume fits neatly on the page.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+              </svg>
+            </div>
+            <h3>Applicant Tracking System Ready</h3>
+            <p>Built with clean semantic structures, standard headings, and selectable text that automated ATS software can parse without errors.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"/>
+              </svg>
+            </div>
+            <h3>Curated Styling Controls</h3>
+            <p>Select tailored accent colors and refined font pairings. Customize line spacing to balance content density on single or multi-page formats.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+              </svg>
+            </div>
+            <h3>High-Fidelity PDF & Print</h3>
+            <p>Generate clean vector-quality A4 PDFs client-side or use the integrated browser print preview with dedicated CSS page break handling.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+              </svg>
+            </div>
+            <h3>Flexible Dynamic Sections</h3>
+            <p>Add, reorder, or delete repeated work, education, or project entries. Toggle optional sections like awards, certifications, and volunteer roles.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section class="section section-subtle">
+      <div class="container">
+        <div class="text-center">
+          <div class="badge">Versatile Application</div>
+          <h2 class="section-title">Designed for Your Career Path</h2>
+          <p class="section-subtitle">Whether you're entering the workforce or stepping into an executive suite, CVCraft adjusts to your needs.</p>
+        </div>
+
+        <div class="use-cases-grid">
+          <div class="use-case-card">
+            <div class="use-case-icon">
+              <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path d="M12 14l9-5-9-5-9 5 9 5z"/>
+                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/>
+              </svg>
+            </div>
+            <div class="use-case-content">
+              <h3>Students & Fresh Graduates</h3>
+              <p>When you have limited work history, your academic coursework, research, and extracurricular leadership matter most.</p>
+              <ul class="use-case-list">
+                <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Dedicated Student template emphasizing coursework & GPA</li>
+                <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Project showcase with links to GitHub or portfolios</li>
+                <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Volunteer and campus society roles highlighted</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="use-case-card">
+            <div class="use-case-icon">
+              <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+              </svg>
+            </div>
+            <div class="use-case-content">
+              <h3>Experienced Professionals & Leaders</h3>
+              <p>Showcase career progression, team leadership, business metrics, and high-impact revenue achievements.</p>
+              <ul class="use-case-list">
+                <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Reverse-chronological work entries with customizable bullet points</li>
+                <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Classic and Minimal layouts with high executive authority</li>
+                <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Multi-page support with clean page-break styling</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Frequently Asked Questions -->
+    <section class="section">
+      <div class="container">
+        <div class="text-center">
+          <div class="badge">Got Questions?</div>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">Straightforward answers about our free CV builder, data handling, and export tools.</p>
+        </div>
+
+        <div class="faq-accordion">
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Is CVCraft really completely free?</span>
+              <svg class="faq-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </summary>
+            <div class="faq-answer">
+              Yes. All features—including all 4 resume templates, font customizations, section reordering, and unlimited PDF exports—are 100% free. There are no trial periods, watermarks, or hidden paywalls.
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Do I need to create an account or sign up?</span>
+              <svg class="faq-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </summary>
+            <div class="faq-answer">
+              No account is required. You can start creating your resume right away. Your work in progress is automatically saved to your local browser storage so you don't lose progress if you accidentally refresh.
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Where is my personal resume data stored?</span>
+              <svg class="faq-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </summary>
+            <div class="faq-answer">
+              Your resume data is stored exclusively in your browser’s localStorage. We do not operate a backend database and we never upload, transmit, or sell your personal details to any third-party server.
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Are these templates ATS-friendly?</span>
+              <svg class="faq-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </summary>
+            <div class="faq-answer">
+              Yes. Our templates use clean semantic HTML hierarchy, standard section names (Experience, Education, Skills), and selectable text. We avoid complex multi-column tables and non-standard symbols that frequently trip up applicant tracking systems.
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Can I create multiple resumes or download as PDF?</span>
+              <svg class="faq-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </summary>
+            <div class="faq-answer">
+              You can export as many PDFs as you need. If you are tailoring resumes for different job descriptions, you can edit your content, download a customized PDF, and adjust it anytime.
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bottom Call-To-Action Banner -->
+    <section class="section section-dark text-center" style="background: radial-gradient(circle at center, #1e1b4b 0%, #0f172a 100%);">
+      <div class="container container-narrow">
+        <h2 style="font-size: 2.5rem; font-weight: 800; color: #fff; margin-bottom: 16px;">Ready to Land Your Next Role?</h2>
+        <p style="color: #cbd5e1; font-size: 1.15rem; margin-bottom: 32px;">Build a polished resume today with CVCraft's free editor. Zero setup required.</p>
+        <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
+          <a href="builder.html" class="btn btn-primary btn-lg">Launch CV Builder</a>
+          <a href="examples.html" class="btn btn-secondary btn-lg">Browse CV Examples</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo" style="color: #fff;">
+            <img src="assets/logo.svg" alt="CVCraft Logo" width="30" height="30">
+            <span>CV<span class="accent">Craft</span></span>
+          </a>
+          <p>
+            The free, private, client-side CV builder empowering students and professionals to build ATS-ready resumes without paywalls or account creation.
+          </p>
+          <div class="privacy-pledge">
+            <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+            </svg>
+            <span>Client-side only. No tracking database.</span>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h4>Resume Builder</h4>
+          <ul class="footer-links">
+            <li><a href="builder.html">Open CV Builder</a></li>
+            <li><a href="templates.html">Resume Templates</a></li>
+            <li><a href="examples.html">CV Examples</a></li>
+            <li><a href="tips.html">Writing Advice</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Templates</h4>
+          <ul class="footer-links">
+            <li><a href="builder.html?template=modern">Modern Clean</a></li>
+            <li><a href="builder.html?template=classic">Classic Executive</a></li>
+            <li><a href="builder.html?template=minimal">Minimalist Swiss</a></li>
+            <li><a href="builder.html?template=student">Student & Graduate</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>About & Legal</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About CVCraft</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 CVCraft. All rights reserved.</div>
+        <div>Developed by <strong>Adeel Murtaza</strong></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
